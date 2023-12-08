@@ -1,6 +1,7 @@
 1. 경고/주의/알림 태그(Hints)
 
 {% hint style="info" %}
+
 **Info hints** are great for showing general information, or providing tips and tricks.
 {% endhint %}
 
