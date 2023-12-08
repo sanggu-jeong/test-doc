@@ -42,7 +42,7 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 
 3. 임베디드 URL
 
-{% embed url="URL_HERE" %}
+{% embed url="[URL_HERE](https://www.youtube.com/watch?v=D_uLM5i0Z4c)" %}
 
 4. 탭(여러 개의 언어 코드를 지원할 때 등에 사용 가능)
 
