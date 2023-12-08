@@ -37,7 +37,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 ReactDOM.render(<App />, window.document.getElementById('root'));
-```{% endcode %}
+```
+
+{% endcode %}
 
 
 3. 임베디드 URL
