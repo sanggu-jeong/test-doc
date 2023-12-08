@@ -1,4 +1,5 @@
 1. 경고/주의/알림 태그(Hints)
+
 {% hint style="info" %}
 **Info hints** are great for showing general information, or providing tips and tricks.
 {% endhint %}
@@ -27,6 +28,7 @@ This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
 
 2. 코드 블록
+
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 
 ```javascript
@@ -37,10 +39,13 @@ import App from './App';
 ReactDOM.render(<App />, window.document.getElementById('root'));
 ```{% endcode %}
 
+
 3. 임베디드 URL
+
 {% embed url="URL_HERE" %}
 
 4. 탭(여러 개의 언어 코드를 지원할 때 등에 사용 가능)
+
 {% tabs %}
 
 {% tab title="Windows" %} Here are the instructions for Windows {% endtab %}
@@ -53,6 +58,7 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 
 
 5. API 메서드 블록
+
 {% swagger method="get" path="" baseUrl="" summary="" %}
 {% swagger-description %}
 
@@ -61,4 +67,5 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 
 
 6. 페이지 링크
+
 {% content-ref url="./" %} . {% endcontent-ref %}
