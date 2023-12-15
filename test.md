@@ -1,4 +1,4 @@
-1. 경고/주의/알림 태그(Hints)
+1. 경고/주의/알림 태그(Hints) ㅇㄹ
 
 {% hint style="info" %}
 
